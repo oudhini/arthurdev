@@ -1,0 +1,3 @@
+# Règles de redirection pour Netlify
+# Renvoie proprement toute route inconnue vers l'accueil sans générer d'erreur 404 brève
+/*    /index.html   200
