@@ -25,7 +25,9 @@
         mobileNav.classList.toggle('is-open');
       }, { passive: true });
 
-      mobileLinks.forEach(link => {
+      // Fermer le menu sur tous les liens du tiroir (liens nav + CTA)
+      const allMobileLinks = mobileNav.querySelectorAll('a');
+      allMobileLinks.forEach(link => {
         link.addEventListener('click', () => {
           menuToggle.setAttribute('aria-expanded', 'false');
           mobileNav.classList.remove('is-open');
