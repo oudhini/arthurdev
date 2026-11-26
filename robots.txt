@@ -1,8 +1,9 @@
-# Robots.txt pour ARTHUR DEV
+﻿# Robots.txt pour ARTHUR DEV
 # Permet à tous les moteurs de recherche (Google, Bing, Yahoo, DuckDuckGo) d'indexer l'intégralité du site
 
 User-agent: *
 Allow: /
+Disallow: /index-all-in-one.html
 
 # Lien direct vers le plan du site XML pour accélérer l'indexation par Googlebot
 Sitemap: https://arthurdev.netlify.app/sitemap.xml

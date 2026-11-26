@@ -7,18 +7,18 @@
   <meta name="description" content="Développement logiciel sur mesure, applications web, mobiles (Flutter/Firebase) et sites internet professionnels à Douala et Yaoundé. Par Sob Motchemi Arthur Loïc.">
   <meta name="author" content="Sob Motchemi Arthur Loïc - ARTHUR DEV">
   <meta name="robots" content="index, follow">
-  <meta name="keywords" content="développement web Cameroun, création application mobile Douala, développement logiciel Yaoundé, digitalisation entreprise Cameroun, ARTHUR DEV, Sob Motchemi Arthur Loïc, Flutter Firebase Cameroun, Laravel PHP Cameroun, site vitrine Yaoundé, devis site web Cameroun">
+  <!-- Google ne lit PAS la balise meta keywords (confirmé par Google) — supprimée -->
   <link rel="canonical" href="https://arthurdev.netlify.app/">
   <meta name="theme-color" content="#07090e">
-  <!-- Code de vérification Google Search Console (à activer après inscription sur Google Search Console) -->
-   <meta name="google-site-verification" content="LBuYWWhpYqf4C7qcHb7DKrY_hiLLcQxE0Qis-ZjJDj0" />
-  <!-- <meta name="google-site-verification" content="VOTRE_CODE_GOOGLE_SEARCH_CONSOLE"> -->
+  <meta name="google-site-verification" content="LBuYWWhpYqf4C7qcHb7DKrY_hiLLcQxE0Qis-ZjJDj0" />
 
   <!-- Open Graph / Meta Réseaux Sociaux -->
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://arthurdev.netlify.app/">
+  <meta property="og:site_name" content="ARTHUR DEV">
   <meta property="og:title" content="ARTHUR DEV | Votre activité mérite mieux que des tâches répétitives">
   <meta property="og:description" content="Conception d'applications web, mobiles et plateformes métier sur mesure à Douala, Yaoundé et à distance. Tarifs transparents dès 60 000 FCFA.">
-  <meta property="og:locale" content="fr_FR">
+  <meta property="og:locale" content="fr_CM">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ARTHUR DEV | Développement Logiciel & Digitalisation">
   <meta name="twitter:description" content="Solutions numériques sur mesure adaptées aux réalités des entreprises camerounaises. Contact direct avec le développeur.">
@@ -29,6 +29,8 @@
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "ARTHUR DEV",
+    "alternateName": "ARTHUR DEV Software and Digital Solutions",
+    "url": "https://arthurdev.netlify.app/",
     "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
     "founder": {
       "@type": "Person",
@@ -42,13 +44,26 @@
       "addressLocality": "Yaoundé",
       "addressCountry": "CM"
     },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 3.8480,
+      "longitude": 11.5021
+    },
     "areaServed": [
       { "@type": "City", "name": "Douala" },
       { "@type": "City", "name": "Yaoundé" },
       { "@type": "AdministrativeArea", "name": "International (À distance)" }
     ],
-    "openingHours": "Mo-Sa 08:00-18:00",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
     "priceRange": "60000 FCFA - Sur devis",
+    "currenciesAccepted": "XAF",
+    "paymentAccepted": "Cash, Mobile Money, Virement bancaire",
+    "knowsLanguage": ["fr", "en"],
     "sameAs": [
       "https://www.linkedin.com/in/arthur-loïc-sob-motchemi-6594a1287",
       "https://github.com/oudhini",
@@ -57,6 +72,40 @@
   }
   </script>
 
+
+  <!-- FAQ Schema — les questions fréquentes apparaîtront directement dans Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Combien coûte un site internet au Cameroun ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un site internet vitrine professionnel chez ARTHUR DEV est disponible à partir de 60 000 FCFA. Un site d'actualités avec espace d'administration complet coûte 219 000 FCFA. Les applications web et mobiles sur mesure sont sur devis après analyse des besoins."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quel est le délai de livraison d'un site web ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un site vitrine est livré en moyenne sous 7 à 14 jours. Les applications métier et mobiles dépendent de la complexité du projet, avec un planning détaillé convenu dès le cahier des charges."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "ARTHUR DEV travaille-t-il à Douala et Yaoundé ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui, ARTHUR DEV intervient physiquement à Yaoundé et Douala, et accepte également des projets à distance pour les clients au Cameroun et à l'international."
+        }
+      }
+    ]
+  }
+  </script>
   <!-- Google Fonts Asynchrones Non-Bloquantes (Zero Flash / Zero Render Lag) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
